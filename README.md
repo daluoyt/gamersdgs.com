@@ -59,10 +59,5 @@
       alert("Procesando solicitud para el ID: " + id + "...\n⚙️ Generando diamantes y skins...");
     }
 
-    function abrirCaja() {
-      const premios = ["500 diamantes", "Skin rara", "Emote exclusivo", "Caja vacía 😢"];
-      const premio = premios[Math.floor(Math.random() * premios.length)];
-      document.getElementById("recompensa").innerText = "🎉 Has recibido: " + premio;
-    }
   </script></body>
 </html>
